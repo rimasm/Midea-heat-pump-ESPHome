@@ -657,7 +657,7 @@ sensor:
     register_type: holding
     address: 0x7b
     value_type: U_WORD
-    unit_of_measurement: "kWh"
+    unit_of_measurement: "kW"
   # Register: 124
   - platform: modbus_controller
     modbus_controller_id: "${devicename}"
